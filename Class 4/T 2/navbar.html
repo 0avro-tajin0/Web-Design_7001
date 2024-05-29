@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            background-color: #cecece;
+            padding: 0 10%;
+        }
+
+
+        .container{
+            min-height: 100vh;
+            width: 100%;
+            background-color: #ffffff;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .navbar{
+            width: 90%;
+            height: 70px;
+            display: flex;
+            align-items: center;
+            border-bottom: 1px solid rgb(214, 213, 213);
+        }
+        .navbar_logo{
+            width: 40%;
+            height: 70px;
+            display: flex;
+            align-items: center;
+        }
+
+        .navbar_logo h2{
+            font-size: 2.5rem;
+            color: #323336;
+            cursor: pointer;
+        }
+
+        .navbar_logo span{
+            font-size: 3rem;
+        }
+        .navbar_menu{
+            width: 60%;
+            height: 70px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        
+        .navbar_menu a{
+            text-decoration: none;
+            font-size: 1.5rem;
+            text-transform: capitalize;
+            color: #323336;
+            transition: all 1s;
+        }
+
+        .navbar_menu a:hover{
+            transform: scale(1.5, 1.5);
+            color: rgb(233, 72, 72);
+        }
+
+
+    </style>
+</head>
+<body>
+
+    <div class="container">
+
+        <!-- nav bar -->
+        <div class="navbar">
+            <div class="navbar_logo">
+                <h2><span>A+</span> Studio</h2>
+            </div>
+            <div class="navbar_menu">
+                <a href="">home</a>
+                <a href="">Project</a>
+                <a href="">blog</a>
+                <a href="">contact</a>
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>
